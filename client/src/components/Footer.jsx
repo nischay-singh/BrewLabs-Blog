@@ -30,11 +30,11 @@ export default function FooterComponent() {
             <div>
               <Footer.Title title="About" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#" target="_blank" rel="noopener norefrrer">
+                <Footer.Link href="#" rel="noopener norefrrer">
                   Lorem Ipsum
                 </Footer.Link>
                 <Footer.Link
-                  href="https://www.google.com"
+                  href="/about"
                   target="_blank"
                   rel="noopener norefrrer"
                 >
