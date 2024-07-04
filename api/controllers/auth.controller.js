@@ -70,7 +70,7 @@ export const google = async (req, res, next) => {
       const { password, ...rest } = user._doc;
       res
         .status(200)
-        .cookie("acess_token", token, { httpOnly: true })
+        .cookie("access_token", token, { httpOnly: true })
         .json(rest);
     } else {
       const generatedPassword =
@@ -90,7 +90,7 @@ export const google = async (req, res, next) => {
       const { password, ...rest } = newUser._doc;
       res
         .status(200)
-        .cookie("acess_token", token, { httpOnly: true })
+        .cookie("access_token", token, { httpOnly: true })
         .json(rest);
     }
   } catch (error) {}
