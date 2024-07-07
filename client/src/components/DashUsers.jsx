@@ -19,7 +19,7 @@ export default function DashUsers() {
         const data = await res.json();
         if (res.ok) {
           setUsers(data.users);
-          if (data.posts.length < 9) {
+          if (data.users.length < 9) {
             setShowMore(false);
           }
         }
@@ -33,7 +33,7 @@ export default function DashUsers() {
   const handleShowMore = async () => {
     const startIndex = users.length;
     try {
-      const res = await fetch(`/api/post/getusers?startIndex=${startIndex}`);
+      const res = await fetch(`/api/user/getusers?startIndex=${startIndex}`);
       const data = await res.json();
       if (res.ok) {
         setUsers((prev) => [...prev, ...data.users]);
@@ -49,19 +49,14 @@ export default function DashUsers() {
   const handleDeleteUser = async () => {
     setShowModal(false);
     try {
-      const res = await fetch(
-        `/api/post/deleteuser/${postIdToDelete}/${currentUser._id}`,
-        {
-          method: "DELETE",
-        }
-      );
+      const res = await fetch(`/api/user/delete/${userIdToDelete}`, {
+        method: "DELETE",
+      });
       const data = await res.json();
       if (!res.ok) {
         console.log(data.message);
       } else {
-        setUserPosts((prev) =>
-          prev.filter((post) => post._id !== postIdToDelete)
-        );
+        setUser((prev) => prev.filter((user) => user._id !== userIdToDelete));
       }
     } catch (error) {
       console.log(error);
