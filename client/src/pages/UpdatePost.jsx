@@ -130,7 +130,7 @@ export default function UpdatePost() {
             <option value="uncategorized">Uncategorized</option>
             <option value="coffeelove">Coffee love</option>
             <option value="teahate">Tea hate</option>
-            <option value="coffeeprep">Coffee pre</option>
+            <option value="coffeeprep">Coffee prep</option>
           </Select>
         </div>
         <div className="flex gap-4 items-center justify-between border-4 border-teal-500 border-dotted p-3">

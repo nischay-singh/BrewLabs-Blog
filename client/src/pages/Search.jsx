@@ -132,7 +132,7 @@ export default function Search() {
               <option value="uncategorized">Uncategorized</option>
               <option value="coffeelove">Coffee love</option>
               <option value="teahate">Tea hate</option>
-              <option value="coffeeprep">Coffee pre</option>
+              <option value="coffeeprep">Coffee prep</option>
             </Select>
           </div>
           <Button type="submit" outline gradientDuoTone="purpleToPink">
