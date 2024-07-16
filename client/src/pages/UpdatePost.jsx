@@ -127,10 +127,10 @@ export default function UpdatePost() {
             }}
             value={formData.category}
           >
-            <option value="uncategorized" Select a category></option>
-            <option value="javascript">JavaScript</option>
-            <option value="reactjs">React.js</option>
-            <option value="angularjs">Angular.js</option>
+            <option value="uncategorized">Uncategorized</option>
+            <option value="coffeelove">Coffee love</option>
+            <option value="teahate">Tea hate</option>
+            <option value="coffeeprep">Coffee pre</option>
           </Select>
         </div>
         <div className="flex gap-4 items-center justify-between border-4 border-teal-500 border-dotted p-3">
