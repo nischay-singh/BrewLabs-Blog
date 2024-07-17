@@ -30,15 +30,15 @@ export default function FooterComponent() {
             <div>
               <Footer.Title title="About" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#" rel="noopener norefrrer">
-                  Lorem Ipsum
+                <Footer.Link href="/" rel="noopener norefrrer">
+                  BrewLab's Blog
                 </Footer.Link>
                 <Footer.Link
                   href="/about"
                   target="_blank"
                   rel="noopener norefrrer"
                 >
-                  Blog
+                  About
                 </Footer.Link>
               </Footer.LinkGroup>
             </div>

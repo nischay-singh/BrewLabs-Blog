@@ -19,10 +19,9 @@ export default function Home() {
       <div className="flex flex-col gap-6 p-28 px-3 max-w-6xl mx-auto">
         <h1 className="text-3xl font-bold lg:text-6xl">Welcome to this blog</h1>
         <p className="text-gray-500 text-xs sm:text-sm">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita
-          aperiam alias officiis unde consequatur enim corporis beatae. Aut
-          consectetur aliquid, et mollitia, quo repellendus esse harum vel quod
-          debitis deleniti!
+          Here you will find various posts about coffee (and some about tea as
+          well)! Check out our favorite recipes with step by step guides so that
+          you can enjoy cafe style coffee right at home. 
         </p>
         <Link
           to="/search"
