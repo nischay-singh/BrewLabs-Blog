@@ -21,7 +21,7 @@ export default function FooterComponent() {
       sm:text-xl font-semibold dark:text-white"
             >
               <span className="px-2 py-1 bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500 rounded-lg text-white">
-                BrewLab's
+                Brew
               </span>
               Blog
             </Link>
@@ -31,7 +31,7 @@ export default function FooterComponent() {
               <Footer.Title title="About" />
               <Footer.LinkGroup col>
                 <Footer.Link href="/" rel="noopener norefrrer">
-                  BrewLab's Blog
+                  Brew Blog
                 </Footer.Link>
                 <Footer.Link
                   href="/about"

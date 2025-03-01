@@ -47,7 +47,7 @@ export default function SignUp() {
         <div className="flex-1">
           <Link to="/" className="font-bold dark:text-white text-4xl">
             <span className="px-2 py-1 bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500 rounded-lg text-white">
-              BrewLab's
+              Brew
             </span>
             Blog
           </Link>

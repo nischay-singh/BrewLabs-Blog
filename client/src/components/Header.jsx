@@ -61,7 +61,7 @@ export default function Header() {
       sm:text-xl font-semibold dark:text-white"
       >
         <span className="px-2 py-1 bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500 rounded-lg text-white">
-          BrewLab's
+          Brew
         </span>
         Blog
       </Link>
